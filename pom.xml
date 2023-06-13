@@ -20,6 +20,14 @@
 		<developerConnection>scm:git:https://github.com/aissamb/spring-bootstrap-hello</developerConnection>
       <tag>HEAD</tag>
   </scm>
+  <distributionManagement>
+       <repository>
+         <id>internal.repo</id>
+         <name>Internal repo</name>
+         <url>file:///tmp/spring-boot-deploy</url>
+       </repository>
+   </distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
