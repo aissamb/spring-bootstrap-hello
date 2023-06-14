@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>com.aissam</groupId>
 	<artifactId>springboot</artifactId>
-	<version>0.0.6</version>
+	<version>0.0.7-SNAPSHOT</version>
 	<name>web-h2</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -18,7 +18,7 @@
 	</properties>
 	<scm>
 		<developerConnection>${my.developer.connection}</developerConnection>
-	  <tag>springboot-0.0.6</tag>
+	  <tag>HEAD</tag>
   </scm>
 
 	<dependencies>
